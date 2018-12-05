@@ -1,0 +1,258 @@
+2018-11-13 11:52:53-http-nio-8080-exec-2--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 11:54:15-http-nio-8080-exec-2--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 11:54:51-http-nio-8080-exec-2--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -annotations.common.Version:37-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -org.hibernate.Version:41-HHH000412: Hibernate Core {4.0.1.Final}
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.cfg.Environment:239-HHH000206: hibernate.properties not found
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.cfg.Environment:342-HHH000021: Bytecode provider name : javassist
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 11:54:55-http-nio-8080-exec-3--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:139-Retrieved the qids of QuestionAnswer table in the database
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "sfgsg" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite color" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "How old are you" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "How old are you"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "asdfasf" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite hero" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "fgshgfhghg" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite film" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "best time" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "fgshgfhghg"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "how old are you" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "do you like films" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "best time"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "where is it" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "where is it"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "sfgsg"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "where is it"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "best time"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "sdgaad" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "sdgaad"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "best time"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "asdfasf"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "asdfasf"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "dfsafsad  afd" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:176-Question "fggthgerth" added to the list
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 11:54:56-http-nio-8080-exec-3--INFO -hrb.controllers.QuestionPaperController:181-successfully created the questionpaper with requested number of questions
+2018-11-13 11:56:50-http-nio-8080-exec-2--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 11:57:48-http-nio-8080-exec-2--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 12:23:44-http-nio-8080-exec-7--INFO -internal.util.Version:21-HV000001: Hibernate Validator 6.0.13.Final
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -annotations.common.Version:37-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -org.hibernate.Version:41-HHH000412: Hibernate Core {4.0.1.Final}
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -hibernate.cfg.Environment:239-HHH000206: hibernate.properties not found
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -hibernate.cfg.Environment:342-HHH000021: Bytecode provider name : javassist
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 12:23:45-http-nio-8080-exec-7--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 12:23:46-http-nio-8080-exec-7--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:139-Retrieved the qids of QuestionAnswer table in the database
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "thgdhdagh" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "dfsafsad  afd" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite color" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "dfsafsad  afd"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "dfdsfg" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite hero" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "do you like films" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "how old are you" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite hero"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite color"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "sfgsg" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "gdhdsdsfd" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite color"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "how old are you"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "best time" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "favourite film" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "asdfasf" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "sfgsg"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "thgdhdagh"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "which color" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "thgdhdagh"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite color"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "how old are you"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "do you like films"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "sfgsg"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "best time"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "fggthgerth" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:187-Question "favourite film"already added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:176-Question "where is it" added to the list
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.dao.QuestionPaperDao:162-Please remove the empty value field from the table
+2018-11-13 12:23:47-http-nio-8080-exec-7--INFO -hrb.controllers.QuestionPaperController:181-successfully created the questionpaper with requested number of questions
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 12:25:22-http-nio-8080-exec-8--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -hrb.dao.QuestionPaperDao:139-Retrieved the qids of QuestionAnswer table in the database
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -hrb.dao.QuestionPaperDao:143-Requested number of questions is larger than the number of questions available in the database. Please add more questions
+2018-11-13 12:25:23-http-nio-8080-exec-8--INFO -hrb.services.QuestionPaperService:35-unable to fetch required number of questions
+2018-11-13 12:25:25-http-nio-8080-exec-9--INFO -hrb.controllers.QuestionPaperController:207-Not a valida data in input field
+2018-11-13 12:25:28-http-nio-8080-exec-10--INFO -hrb.controllers.QuestionPaperController:207-Not a valida data in input field
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 12:25:38-http-nio-8080-exec-12--INFO -hrb.dao.QuestionPaperDao:94-Question not present
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 12:27:36-http-nio-8080-exec-13--INFO -hrb.dao.QuestionPaperDao:107-Question "where is it" deleted
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hibernate.cfg.Configuration:1920-HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hibernate.cfg.Configuration:1939-HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hibernate.cfg.Configuration:2061-HHH000041: Configured SessionFactory: null
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -connections.internal.DriverManagerConnectionProviderImpl:90-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -connections.internal.DriverManagerConnectionProviderImpl:110-HHH000115: Hibernate connection pool size: 20
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -connections.internal.DriverManagerConnectionProviderImpl:113-HHH000006: Autocommit mode: false
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -connections.internal.DriverManagerConnectionProviderImpl:127-HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/questionpaper?useSSL=false]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -connections.internal.DriverManagerConnectionProviderImpl:132-HHH000046: Connection properties: {user=root, password=****}
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hibernate.dialect.Dialect:121-HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -transaction.internal.TransactionFactoryInitiator:68-HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -internal.ast.ASTQueryTranslatorFactory:48-HHH000397: Using ASTQueryTranslatorFactory
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.SchemaUpdate:182-HHH000228: Running hbm2ddl schema update
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.SchemaUpdate:193-HHH000102: Fetching database metadata
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.SchemaUpdate:205-HHH000396: Updating schema
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.options
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [option3, option4, option1, oid, option2]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: []
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [primary]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:65-HHH000261: Table found: questionpaper.questionanswer
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:66-HHH000037: Columns: [answer, question, option_id, qid]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:68-HHH000108: Foreign keys: [fk20f92f648787ddc2]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.TableMetadata:69-HHH000126: Indexes: [fk20f92f648787ddc2, primary]
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -tool.hbm2ddl.SchemaUpdate:240-HHH000232: Schema update complete
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hrb.dao.QuestionPaperDao:57-Question and options added to the database
+2018-11-13 12:27:50-http-nio-8080-exec-5--INFO -hrb.controllers.QuestionPaperController:89-Successfully added the Question
